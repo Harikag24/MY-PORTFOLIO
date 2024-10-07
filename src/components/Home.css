@@ -1,0 +1,91 @@
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px); /* Slide in from top */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at normal position */
+    }
+  }
+
+  @keyframes fadeInDelay {
+    0% {
+      opacity: 0;
+      transform: translateY(50px); /* Slide in from bottom */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at normal position */
+    }
+  }
+  
+.home {
+  padding: 90px;
+}
+
+.home h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: "Dancing Script", cursive;/* Example font from Google Fonts */
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out; /* Animation on load */
+
+  }
+  
+  .home h2 {
+    font-size: 4rem; /* Increase the size of your name */
+    color: #ffffff;
+    /* A professional blue color */
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;/* Example font from Google Fonts */
+    font-weight: bold;
+    animation: fadeInDelay 3s ease-in-out; /* Animation with slight delay */
+  }
+  
+  .tag {
+    color: #ffffff;    ;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    animation: fadeInDelay 3s ease-in-out;
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cta-buttons a {
+    text-decoration: none;
+  }
+  .know-me-btn {
+  padding: 12px 25px;
+  border-radius: 25px;
+  background-color: #c3d0dc; /* Button background color */
+  color: white; /* Button text color */
+  border: none; 
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  }
+
+  .btn-secondary {
+    padding: 12px 25px;
+    border-radius: 25px;
+    background-color: #c3d0dc; /* Button background color */
+    color: white; /* Button text color */
+    border: none; 
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    }
+
+
+  
+
