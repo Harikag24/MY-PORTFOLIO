@@ -4,7 +4,7 @@
 }
 
 main {
-  background-image: url('/public/bckg.jpg');
+  background-image: url('/public/bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

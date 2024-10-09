@@ -13,7 +13,10 @@ function Projects() {
             <p>Developed a full-stack e-commerce website for women’s accessories using Python, Flask, MySQL, HTML, and CSS. The site includes product management, user accounts, and order processing features.</p>
         </div>
         <div className='project'>
-            <h4>YouTube Clone</h4>
+            <h4>YouTube Clone
+              <img src='/youtube.svg'
+               alt="Epam Logo" 
+            className="small-logo" /></h4>
             <p>Created a YouTube clone to enhance front-end skills, using HTML, CSS, and JavaScript. Implemented dynamic content loading, pagination, and search functionality.</p>
         </div>
 

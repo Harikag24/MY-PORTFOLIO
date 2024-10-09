@@ -12,7 +12,13 @@ function Experience() {
             {/* <h3>Professional Experience</h3> */}
 
             <div className='project'>
-            <h4>Teaching Assistant - University of Texas at Dallas</h4>
+            <h4>Teaching Assistant - University of Texas at Dallas
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/7/7c/UT_Dallas_2_Color_Emblem_-_SVG_Brand_Identity_File.svg" 
+              alt="UTD Logo" 
+              className="small-logo" 
+            />
+            </h4>
           <p><strong>Feb 2023 - Present</strong></p>
           
            <p>Facilitated lectures, graded assignments, provided mentorship to students,and actively contributed to curriculum development, contributing to effective learning.
@@ -22,7 +28,13 @@ function Experience() {
             </div>
 
             <div className='project'>
-            <h4>Software Engineer - EPAM Systems</h4>
+            <h4>Software Engineer - EPAM Systems 
+            <img 
+             src="/epamlogo.svg" 
+              alt="Epam Logo" 
+              className="small-logo" 
+            />
+            </h4>
           <p><strong>Nov 2021 - Dec 2022</strong></p>
           
            <p>Developed and integrated front-end and back-end features for Google Maps using Spring, Angular, TypeScript, and JavaScript.
@@ -34,7 +46,13 @@ function Experience() {
             </div>
 
             <div className='project'>
-            <h4>SWE Intern - EPAM Systems</h4>
+            <h4>SWE Intern - EPAM Systems
+            <img 
+              src="/epamlogo.svg" 
+              alt="Epam Logo" 
+              className="small-logo" 
+            />
+            </h4>
           <p><strong>Jun 2021 - Oct 2021</strong></p>
           
             <p> Worked on an internal project in Epam “ASSIST”. Developed application features as part of my project responsibilities using React.

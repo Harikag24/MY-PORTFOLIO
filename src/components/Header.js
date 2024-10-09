@@ -8,11 +8,11 @@ function Header() {
         <nav>
             <ul>
                 <li>
-                    <a href='#home-view'>Home</a>
+                    <a href='#home-view'>About</a>
                 </li>
-                <li>
+                {/* <li>
                     <a href='#about-view'>About</a>
-                </li>
+                </li> */}
                 <li>
                     <a href="#experience-view">Experience</a>
                 </li>

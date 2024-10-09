@@ -48,11 +48,13 @@
   font-weight: bold;
 }
 
-/* Add responsiveness */
+
+
+
 @media (max-width: 768px) {
   .projects-section {
     padding: 20px;
-    grid-template-columns: 1fr; /* Stack projects in a single column */
+    grid-template-columns: 1fr; 
   }
 
   .project {

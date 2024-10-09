@@ -23,10 +23,10 @@ function App() {
         <section id="home-view">
         <Home />
         </section>
-        <section id="about-view">
+        {/* <section id="about-view">
         {/* <Route path="/about" element={<About />}></Route> */}
-        <About />
-        </section>
+        {/* <About /> */}
+        {/* </section> */} 
 
         <section id="experience-view">
         {/* <Route path="/Experience" element={<Experience />}></Route> */}
