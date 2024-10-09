@@ -15,7 +15,7 @@ function Home() {
       <div className='content'> 
       <h1>Hi there,I'm <span className="highlight">Harika!</span></h1>
       
-      <p className="tag">UTD '2024 
+      <p className="tag">UTD '24 
       <img 
               src="https://upload.wikimedia.org/wikipedia/commons/7/7c/UT_Dallas_2_Color_Emblem_-_SVG_Brand_Identity_File.svg" 
               alt="UTD Logo" 
