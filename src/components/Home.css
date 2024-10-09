@@ -135,4 +135,12 @@
     vertical-align: middle; 
     margin-left: 5px; 
   }
+
+  @media (max-width: 768px) {
+
+    .homepage {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
   
